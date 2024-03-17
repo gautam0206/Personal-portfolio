@@ -1,0 +1,158 @@
+#about{
+
+    height: 100vh;
+    width: 100vw;
+    margin: 4rem 2rem;
+    overflow: hidden;
+
+
+}
+.container-skills{
+    height: 100vh;
+    width: 100vw;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 5px;
+    padding: 2px px;
+}
+.about-col-1{
+    flex-basis: 35%; 
+   
+}
+.about-img{
+    position: relative;
+    width: 95%;
+    height: 75%;
+    border-radius: 10px;
+    margin: 7rem 1rem;
+    padding: 0rem 0rem;
+}  
+
+.about-para{
+    margin: 15px 10px;
+    padding: 5px 0px;
+    margin-right: 5rem;
+}
+
+
+.about-col-2{
+    flex-basis: 60%;
+
+}
+.sub-title-about{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    margin: 0px 10px;
+}
+
+.tab-titles {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 5px
+    }
+
+.tab-links {
+    margin-right: 100px;
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 5px;
+    padding-top: 0px;
+
+
+}
+.tab-links:hover{
+    color:yellow;
+    border-bottom: 3px solid yellow;
+}
+.active-link{
+    color:yellow;
+    border-bottom: 3px solid yellow;
+}
+
+
+.tab-contents {
+    display: none;
+    padding-top: 5px;
+    padding-top: 5px;
+}
+
+.tab-contents.active-tab {
+    display: block;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.tab-contents ul li {
+    list-style: none;
+    margin: 10px 0;
+    padding: 5px 0px;
+}
+
+.tab-contents ul li span {
+    color: #f8f81a;
+    font-size: 16px;
+}
+
+.resumebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 40px;
+    color: black;
+    background: white;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.resume-link{
+    color: black;
+}
+
+.resumebtn:hover{
+    background: yellow;
+}
+
+
+@media screen and (max-width:431px){
+    #about{
+        height: 80vh;
+        width: 100vw;
+        margin: 5rem 2rem;
+        overflow: hidden;
+    }
+    .about-col-1{
+      display: none; 
+       
+    }
+   
+    .tab-links{
+        width: 80px;
+    }
+    .container-skills{
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    
+    }  
+
+}
+
+
+
+
+
+
+
+
+
+
